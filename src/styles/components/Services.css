@@ -1,0 +1,42 @@
+.services-section h2 {
+  padding-bottom: 5rem;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-box {
+  flex: 0 1 35rem;
+  background-color: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  border: 0.2rem solid var(--bg-color);
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.03);
+}
+
+.services-box i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.services-box h3 {
+  font-size: 2.6rem;
+}
+
+.services-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+  line-height: 2rem;
+}
