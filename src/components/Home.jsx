@@ -3,6 +3,7 @@ import Typing from 'react-typing-effect';
 import scrollRevealConfigHome from '../utils/scrollRevealConfigHome';
 import '../styles/components/Home.css';
 
+
 function Home() {
   useEffect(() => {
     scrollRevealConfigHome();
@@ -37,7 +38,7 @@ function Home() {
           <a href="mailto:sunerasandaruwan1@gmail.com"><i className='bx bxl-gmail'></i></a>
           <a href="https://github.com/Sunera25"><i className='bx bxl-github'></i></a>
         </div>
-        <a href='/documents/Sandaruwan K.D.S..pdf' download className='btn'>Download CV</a>
+        <a href='/documents/MyCV.pdf' download="MyCV.pdf" className='btn'>Download CV</a>
       </div>
       <div className='portfolio-image'>
         <img src={require('../assets/images/portfolio.png')} alt='portfolio-image'></img>
