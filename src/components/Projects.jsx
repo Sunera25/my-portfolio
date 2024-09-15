@@ -22,12 +22,12 @@ function Projects() {
               automated systems and centralizing key operations, the system aims to improve the overall guest experience and
               optimize staff workflows.
             </p>
-            <a href='#'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Hotel-and-Restaurant-MIS'><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
         <div className='project-box'>
-          <img src={require('../assets/images/avatar.png')} alt="hotel-img" />
+          <img src={require('../assets/images/avatar.png')} alt="avatar-img" />
           <div className='box-layer'>
             <h4>Portfolio</h4>
             <p>
@@ -35,12 +35,12 @@ function Projects() {
               the skills I've honed, and the services I offer in crafting responsive, user-friendly applications. Through a mix of
               creativity and technical expertise, I aim to deliver impactful digital solutions.
             </p>
-            <a href='#'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Sunera25/my-portfolio'><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
         <div className='project-box'>
-          <img src={require('../assets/images/studentprogress.jpg')} alt="hotel-img" />
+          <img src={require('../assets/images/studentprogress.jpg')} alt="student-img" />
           <div className='box-layer'>
             <h4>Student Progress Report Generate System</h4>
             <p>
@@ -48,24 +48,22 @@ function Projects() {
               marks for each subject. The system generates a personalized PDF report for each student, displaying their marks,
               rank, and overall average across all subjects.
             </p>
-            <a href='#'><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
         <div className='project-box'>
-          <img src={require('../assets/images/supplychain.jpg')} alt="hotel-img" />
+          <img src={require('../assets/images/supplychain.jpg')} alt="supplychain-img" />
           <div className='box-layer'>
             <h4>Supply Chain management System</h4>
             <p>
               We developed a Supply Chain Management System that simulated the distribution of
               products across multiple cities using trains and trucks. A database was created to manage orders,
               track deliveries, and efficiently schedule drivers and trucks for optimized logistics.</p>
-            <a href='#'><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
         <div className='project-box'>
-          <img src={require('../assets/images/nanoprocessor.jpg')} alt="hotel-img" />
+          <img src={require('../assets/images/nanoprocessor.jpg')} alt="micropocessor-img" />
           <div className='box-layer'>
             <h4>Microprocessor Design</h4>
             <p>
@@ -73,7 +71,7 @@ function Projects() {
               This microprocessor was capable of performing fundamental operations including addition, subtraction, left shift,
               right shift, and negation.
             </p>
-            <a href='#'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Sunera25/CS1050-NanoProcessor'><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 

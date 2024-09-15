@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/components/About.css';
 import scrollRevealConfigAbout from '../utils/scrollRevealConfigAbout';
 
 function About() {
+  const [showMore, setShowMore] = useState(false);
+
   useEffect(() => {
     scrollRevealConfigAbout();
   }, []);
-
-
 
   return (
     <section id="about" className="about-section">
@@ -16,17 +16,18 @@ function About() {
       </div>
       <div className='about-content'>
         <h2>About <span>Me</span></h2>
-        <p>
-          I am a third-year undergraduate in the Department of Computer Science and Engineering at the University of Moratuwa,
-          deeply passionate about both full-stack web development and mobile app development. My journey so far has involved
-          working on diverse projects that leverage modern technologies to create efficient and innovative solutions. I thrive
-          on solving complex problems and enjoy the challenge of bringing ideas to life through code. With a commitment to
-          continuous learning and growth, I am excited about the opportunities to contribute to and collaborate on impactful
-          projects.
-        </p>
-        <a href="#" className='btn'>Read More</a>
+        <p> I am a third-year undergraduate in the Department of Computer Science and Engineering at the University of
+          Moratuwa, with a passion for full-stack web development and mobile app development. {showMore && (<> My academic
+            journey has given me the chance to dive into several hands-on projects, where I’ve gained practical experience in
+            building web and mobile applications. I’ve worked with technologies such as React, Spring Boot, and Flutter, which
+            have deepened my understanding of both frontend and backend development. I enjoy problem-solving and continuously
+            improving my skills by taking on new challenges. Moving forward, I’m eager to keep learning and applying my knowledge
+            in real-world scenarios, while contributing to collaborative and impactful projects. </>)} </p>
+        <button onClick={() => setShowMore(!showMore)} className='btn'>
+          {showMore ? 'Show Less' : 'Read More'}
+        </button>
       </div>
-    </section>
+    </section >
   );
 }
 
