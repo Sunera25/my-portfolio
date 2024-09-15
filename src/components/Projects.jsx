@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/components/Projects.css';
+import scrollRevealConfigProjects from '../utils/scrollRevealConfigProjects';
 
 function Projects() {
+  useEffect(() => {
+    scrollRevealConfigProjects();
+  }, []);
   return (
     <section id="projects" className="section-projects">
       <h2>My <span>Projects</span></h2>

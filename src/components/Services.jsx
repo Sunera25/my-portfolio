@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/components/Services.css';
+import scrollRevealConfigServices from '../utils/scrollRevealConfigServices';
 
 function Services() {
+
+  useEffect(() => {
+    scrollRevealConfigServices();
+  }, [])
   return (
     <section id="services" className='services-section'>
 
@@ -25,6 +30,8 @@ function Services() {
           </p>
           <a href='#' className='btn'>Read More</a>
         </div>
+
+
       </div>
     </section>
   );

@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/components/About.css';
+import scrollRevealConfigAbout from '../utils/scrollRevealConfigAbout';
 
 function About() {
+  useEffect(() => {
+    scrollRevealConfigAbout();
+  }, []);
+
+
+
   return (
     <section id="about" className="about-section">
       <div className='about-img'>

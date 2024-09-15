@@ -1,3 +1,7 @@
+.contact-section {
+  background-color: var(--third-bg-color);
+}
+
 .contact-section h2 {
   padding-bottom: 2rem;
   font-size: 4.5rem;

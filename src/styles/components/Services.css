@@ -1,7 +1,12 @@
+.services-section {
+  background-color: var(--third-bg-color);
+}
+
 .services-section h2 {
   padding-bottom: 5rem;
   font-size: 4.5rem;
   text-align: center;
+
 }
 
 .services-container {
@@ -39,4 +44,11 @@
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
   line-height: 2rem;
+}
+
+
+@media(max-width:768px) {
+  .services-section h2 {
+    margin-bottom: 3rem;
+  }
 }
