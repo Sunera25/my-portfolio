@@ -18,11 +18,12 @@
 .input-group {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .input-group input,
 .contact-section form textarea {
-  width: 100%;
+  width: 49%;
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
@@ -32,10 +33,23 @@
 }
 
 .contact-section form textarea {
+  width: 100%;
   resize: none;
 }
 
 .contact-section .btn {
   margin-top: 2rem;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  .contact-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
 }

@@ -87,6 +87,12 @@
 }
 
 @media(max-width:617px) {
+
+  .section-projects {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .projects-container {
     grid-template-columns: 1fr;
   }
