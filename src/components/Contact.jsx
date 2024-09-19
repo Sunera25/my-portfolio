@@ -42,14 +42,14 @@ function Contact() {
   return (
     <section id="contact" className="contact-section">
       <h2>Contact <span>Me!</span></h2>
-      <form action="#conatct" className="contact-form" onSubmit={handleSubmit}>
+      <form action="#contact" className="contact-form" onSubmit={handleSubmit}>
         <div className="input-group">
-          <input name="name" type="text" placeholder='Your Name' onChange={handleChange} value={formData.name} required />
-          <input name="email" type="email" placeholder='Your Email' onChange={handleChange} value={formData.email} required />
-          <input name="phone" type="text" placeholder='Your Number' onChange={handleChange} value={formData.phone} required />
-          <input name="subject" type="text" placeholder='Email Subject ' onChange={handleChange} value={formData.subject} required />
+          <input name="name" type="text" placeholder='Your Name' onChange={handleChange} value={formData.name} autoComplete="off" required />
+          <input name="email" type="email" placeholder='Your Email' onChange={handleChange} value={formData.email} autoComplete="off" required />
+          <input name="phone" type="text" placeholder='Your Number' onChange={handleChange} value={formData.phone} autoComplete="off" required />
+          <input name="subject" type="text" placeholder='Email Subject ' onChange={handleChange} value={formData.subject} autoComplete="off" required />
         </div>
-        <textarea cols='30' rows='10' name="message" placeholder='Your Message' onChange={handleChange} value={formData.message} required />
+        <textarea cols='30' rows='10' name="message" placeholder='Your Message' onChange={handleChange} value={formData.message} autoComplete="off" required />
         <input type="submit" className='btn' value='Send Message' />
       </form>
       <ToastContainer />

@@ -19,7 +19,7 @@ function Services() {
           <p>
             Creating engaging and functional websites and web applications, combining design and coding for seamless online experiences.
           </p>
-          <a href='#' className='btn'>Read More</a>
+          <a href='https://www.geeksforgeeks.org/web-development/' target='_blank' className='btn' rel="noreferrer">Read More</a>
         </div>
 
         <div className='services-box'>
@@ -28,7 +28,7 @@ function Services() {
           <p>
             Building user-friendly apps for smartphones and tablets, optimized for smooth performance and mobile device capabilities.
           </p>
-          <a href='#' className='btn'>Read More</a>
+          <a href='https://www.geeksforgeeks.org/introduction-of-mobile-applications/' target="_blank" className='btn' rel="noreferrer">Read More</a>
         </div>
 
 

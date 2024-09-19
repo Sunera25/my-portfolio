@@ -2,7 +2,7 @@ import ScrollReveal from 'scrollreveal';
 
 const scrollRevealConfigHome = () => {
   ScrollReveal().reveal('.home-content', {
-    reset: false,
+    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200,
@@ -10,7 +10,7 @@ const scrollRevealConfigHome = () => {
   });
   
   ScrollReveal().reveal('.portfolio-image', {
-    reset: false,
+    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200,

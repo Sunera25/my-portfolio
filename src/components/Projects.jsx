@@ -22,7 +22,7 @@ function Projects() {
               automated systems and centralizing key operations, the system aims to improve the overall guest experience and
               optimize staff workflows.
             </p>
-            <a href='https://github.com/Hotel-and-Restaurant-MIS'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Hotel-and-Restaurant-MIS' target='_blank' rel="noreferrer"><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ function Projects() {
               the skills I've honed, and the services I offer in crafting responsive, user-friendly applications. Through a mix of
               creativity and technical expertise, I aim to deliver impactful digital solutions.
             </p>
-            <a href='https://github.com/Sunera25/my-portfolio'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Sunera25/my-portfolio' target='_blank' rel="noreferrer"><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 
@@ -71,7 +71,7 @@ function Projects() {
               This microprocessor was capable of performing fundamental operations including addition, subtraction, left shift,
               right shift, and negation.
             </p>
-            <a href='https://github.com/Sunera25/CS1050-NanoProcessor'><i class='bx bx-link-external' ></i></a>
+            <a href='https://github.com/Sunera25/CS1050-NanoProcessor' target='_blank' rel="noreferrer"><i class='bx bx-link-external' ></i></a>
           </div>
         </div>
 

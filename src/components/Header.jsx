@@ -53,6 +53,7 @@ function Header() {
         <a href="#services" className={activeSection === 'services' ? 'active' : ''} onClick={toggleNavbar}>Services</a>
         <a href="#projects" className={activeSection === 'projects' ? 'active' : ''} onClick={toggleNavbar}>Projects</a>
         <a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={toggleNavbar}>Contact</a>
+
       </nav>
     </div>
   );

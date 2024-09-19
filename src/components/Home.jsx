@@ -11,6 +11,7 @@ function Home() {
 
   return (
     <section id="home" className="home-section">
+
       <div className='home-content'>
         <h3>Hello, It's me</h3>
         <h1>Sunera Sandaruwan</h1>
@@ -31,12 +32,12 @@ function Home() {
           and contribute to impactful projects.
         </p>
         <div className="social-media">
-          <a href="https://www.linkedin.com/in/sunera-sandaruwan-28b93b295"><i className='bx bxl-linkedin'></i></a>
-          <a href="https://www.facebook.com/sunera.sandaruwan?mibextid=ZbWKwL"><i className='bx bxl-facebook'></i></a>
-          <a href="https://wa.me/+94783685381"><i className='bx bxl-whatsapp'></i></a>
-          <a href="https://www.instagram.com/sunerasandaruwan"><i className='bx bxl-instagram'></i></a>
-          <a href="mailto:sunerasandaruwan1@gmail.com"><i className='bx bxl-gmail'></i></a>
-          <a href="https://github.com/Sunera25"><i className='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/sunera-sandaruwan-28b93b295" target='_blank' rel="noreferrer"><i className='bx bxl-linkedin'></i></a>
+          <a href="https://www.facebook.com/sunera.sandaruwan?mibextid=ZbWKwL" target='_blank' rel="noreferrer"><i className='bx bxl-facebook'></i></a>
+          <a href="https://wa.me/+94783685381" target='_blank' rel="noreferrer"><i className='bx bxl-whatsapp'></i></a>
+          <a href="https://www.instagram.com/sunerasandaruwan" target='_blank' rel="noreferrer"><i className='bx bxl-instagram'></i></a>
+          <a href="mailto:sunerasandaruwan1@gmail.com" target='_blank' rel="noreferrer"><i className='bx bxl-gmail'></i></a>
+          <a href="https://github.com/Sunera25" target='_blank' rel="noreferrer"><i className='bx bxl-github'></i></a>
         </div>
         <a href='/documents/MyCV.pdf' download="MyCV.pdf" className='btn'>Download CV</a>
       </div>
