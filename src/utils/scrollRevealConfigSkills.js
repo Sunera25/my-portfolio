@@ -8,14 +8,7 @@ const scrollRevealConfigSkills = () =>{
     delay: 200,
     origin: 'left',
   });
-  ScrollReveal().reveal('.skills-details-container', {
-    reset: true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200,
-    origin: 'right',
-    
-  });
+ 
 };
 
 export default scrollRevealConfigSkills;
